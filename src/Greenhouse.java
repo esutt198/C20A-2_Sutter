@@ -15,7 +15,9 @@ public class Greenhouse {
 	
 	private void addPlants() {
 		Plant rose = new Plant("Rose", 24, "RED");
+		Plant cactus = new Plant("Cactus", 10, "GREEN");
 		plants.add(rose);
+		plants.add(cactus);
 	}
 	
 	private void printPlants() {
